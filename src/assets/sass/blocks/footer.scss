@@ -1,0 +1,42 @@
+.adventure-footer {
+    padding: 17px 0 40px;
+}
+.adventure-footer__wrapp {
+    display: flex;
+    justify-content: end;
+}
+
+.adventure-footer__wrapper {
+    padding: 15px;
+    border: 4px solid;
+    border: 3px solid #f8c400;
+
+    border-radius: 15px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.adventure-footer-img {
+    position: absolute;
+    left: -3px;
+    bottom: -22px;
+}
+
+.adventure-footer__wrapp-content {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333027;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.adventure-footer__wrapper-text {
+    padding-right: 10px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #333027;
+}
