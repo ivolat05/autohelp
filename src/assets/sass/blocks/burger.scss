@@ -1,0 +1,70 @@
+.adventure-menu__burger {
+    height: 16px;
+    position: relative;
+    top: 4px;
+    right: 51px;
+    cursor: pointer;
+    display: none;
+}
+
+.adventure-menu__burger::before,
+.adventure-menu__burger::after {
+    content: "";
+    background: #293db6;
+    position: absolute;
+    width: 33px;
+    height: 2px;
+
+    left: 0;
+}
+
+.adventure-menu__burger::after {
+    width: 33px;
+}
+
+.adventure-menu__burger::before {
+    top: 0;
+}
+
+.adventure-menu__burger-line {
+    background: #293db6;
+    position: absolute;
+    width: 33px;
+    height: 2px;
+
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.adventure-menu__burger::after {
+    bottom: 0;
+}
+
+.adventure-burger__active {
+    position: relative;
+    z-index: 8;
+}
+
+.adventure-burger__active::before {
+    transform: rotate(45deg);
+
+    top: 6px;
+
+    background: #293db6;
+}
+
+.adventure-burger__active .adventure-menu__burger-line {
+    transform: scale(0);
+}
+
+.adventure-burger__active::after {
+    width: 33px;
+    transform: rotate(-45deg);
+    bottom: 8px;
+    background: #293db6;
+}
+
+.adventure-look {
+    overflow: hidden;
+}

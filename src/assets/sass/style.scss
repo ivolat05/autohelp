@@ -1,0 +1,24 @@
+@import "../sass/vendor/font.scss";
+@import "../sass/vendor/reset.scss";
+
+* {
+    box-sizing: border-box;
+    font-family: "Cambria";
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.adventure-container {
+    max-width: 935px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+@import "../sass/blocks/header.scss";
+@import "../sass/blocks/burger.scss";
+@import "../sass/blocks/main.scss";
