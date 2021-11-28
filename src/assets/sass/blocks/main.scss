@@ -1,0 +1,112 @@
+.adventure-main {
+    padding: 10px 0 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.adventure-main__wrapp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adventure-main__wrapp-img {
+    width: 95%;
+}
+.adventure-main__wrapp-col {
+    position: relative;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.1;
+}
+
+.adventure-main__price-title {
+    font-size: 30px;
+}
+.adventure-main__price-info {
+    color: #ff4a32;
+}
+
+.adventure-main__wrapp-price {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.adventure-main__wrapp-info {
+    font-weight: normal;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-35%);
+}
+
+.adventure-main-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adventure-main__info-time {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 15px 0 15px 55px;
+    position: relative;
+    &::before {
+        content: url("../../assets/img/adventure-main-clock.jpg");
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+.adventure-main__info-place {
+    font-weight: 700;
+    font-size: 33px;
+    color: #293db6;
+
+    line-height: 1.2;
+}
+
+.adventure-main__wrapp-link {
+    display: block;
+    color: #333027;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.adventure-main__link-span {
+    color: #ff4a32;
+}
+
+.adventure-main__wrapp-link-2 {
+    display: block;
+    color: #616161;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    position: relative;
+    &::before {
+        content: url("../../assets/img/adventure-main-phone.png");
+        position: absolute;
+        left: -99px;
+        top: -55px;
+    }
+}
+
+.adventure-main-text {
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    background: #293db6;
+    padding: 10px 15px 12px 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
