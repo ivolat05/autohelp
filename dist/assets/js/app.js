@@ -11,3 +11,11 @@ $('.adventure-menu__burger').click(function () {
 $('.adventure-news__box-foto').magnificPopup({
     type: 'image'
 });
+
+const adventureLike = document.querySelectorAll('.adventure-like');
+adventureLike.forEach((item) => {
+    item.addEventListener('click', () => {
+        item.classList.toggle('adventure-like--active');
+    });
+
+});
