@@ -1,0 +1,179 @@
+.adventure-news__wrapp {
+    box-shadow: 0 0 0 1px rgba(4, 47, 89, 0.12) inset;
+    border-radius: 3px;
+}
+
+.adventure-news__wrapp-head {
+    width: 100%;
+    background: url("../../assets/img/adventure-news-background.jpg") no-repeat center center/cover;
+    padding: 20px 20px 5px;
+    position: relative;
+}
+
+.adventure-news__head-color {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.adventure-news__head-link {
+    font-family: "HelveticaNeueCyr";
+    display: block;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    &::before {
+        content: url("../../assets/img/adventure-news-head.jpg");
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 50px;
+        height: 50px;
+        transform: scale(0.6);
+        left: -8px;
+        top: -16px;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.adventure-news__head-content {
+    font-family: "HelveticaNeueCyr";
+    font-size: 12px;
+    line-height: 17px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.adventure-news__info-link {
+    font-family: "HelveticaNeueCyr";
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(51, 51, 51, 0.72);
+    display: block;
+    padding: 10px;
+    &:hover {
+        text-decoration: underline;
+        color: #000;
+    }
+}
+
+.adventure-news__wrapp-body {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 1220px;
+    padding: 10px;
+    width: 100%;
+    scrollbar-width: none;
+}
+
+.adventure-news__wrapp-body::-webkit-scrollbar {
+    display: none;
+}
+.adventure-news__foto-img {
+    width: 100%;
+}
+
+.adventure-news__body-box {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(4, 47, 89, 0.12);
+}
+
+.adventure-news__data {
+    font-family: "HelveticaNeueCyr";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+    color: #5181b8;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.adventure-news__place {
+    font-family: "HelveticaNeueCyr";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.462;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.adventure-news__info {
+    font-family: "HelveticaNeueCyr";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.462;
+    padding-bottom: 20px;
+}
+
+.adventure-new__info-inner::before {
+    content: url("../../assets/img/adventure-img-1.png");
+    position: relative;
+    top: 3px;
+}
+
+.adventure-new__info-inner-2::before {
+    content: url("../../assets/img/adventure-img-2.png");
+}
+
+.adventure-new__info-inner-3::before {
+    content: url("../../assets/img/adventure-img-3.png");
+}
+
+.adventure-new__info-inner-4::before {
+    content: url("../../assets/img/adventure-img-4.png");
+}
+
+.adventure-new__info-inner-5::before {
+    content: url("../../assets/img/adventure-img-5.png");
+}
+
+.adventure-news__list-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-bottom: 10px;
+    a {
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.2;
+        font-family: "HelveticaNeueCyr";
+        color: #5181b8;
+        padding: 0;
+    }
+}
+
+.adventure-news-btn {
+    margin: 10px;
+    display: block;
+    background: #5181b8;
+    font-family: "HelveticaNeueCyr";
+    font-size: 12.5px;
+    border-radius: 4px;
+    padding: 8px 16px 8px;
+    line-height: 15px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    &::before {
+        content: url("../../assets/img/adventure-vk.png");
+    }
+}
+
+.adventure-info__news-fix {
+    width: 40%;
+    .adventure-info__inner {
+        width: 100%;
+    }
+}
