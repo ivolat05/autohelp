@@ -1,10 +1,11 @@
 .adventure-menu__burger {
     height: 16px;
     position: relative;
-    top: 4px;
-    right: 51px;
+    top: 0;
+    right: 40px;
     cursor: pointer;
     display: none;
+    z-index: 4;
 }
 
 .adventure-menu__burger::before,
@@ -51,7 +52,7 @@
 
     top: 6px;
 
-    background: #293db6;
+    background: #fff;
 }
 
 .adventure-burger__active .adventure-menu__burger-line {
@@ -62,7 +63,7 @@
     width: 33px;
     transform: rotate(-45deg);
     bottom: 8px;
-    background: #293db6;
+    background: #fff;
 }
 
 .adventure-look {

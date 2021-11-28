@@ -1,0 +1,170 @@
+@media (max-width: 940px) {
+    .adventure-main__wrapp-img {
+        display: none;
+    }
+    .adventure-main__wrapp-info,
+    .adventure-main__wrapp-price {
+        position: static;
+        display: block;
+        transform: translateX(0);
+    }
+    .adventure-main__wrapp-col {
+        width: 55%;
+        padding: 20px 20px;
+        background-color: #e4e5e4;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .adventure-main__wrapp-price {
+        font-size: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .adventure-main__wrapp {
+        gap: 10px;
+    }
+}
+@media (max-width: 870px) {
+    .adventure-menu__burger {
+        display: block;
+    }
+    .adventure-nav {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        height: 100vh;
+        transition: 0.4s;
+        transform: translateY(-200%);
+        z-index: 4;
+        padding-top: 25px;
+    }
+
+    .adventure-nav-active {
+        transform: translateY(0);
+    }
+
+    .adventure-nav__list-link::after {
+        background: none;
+    }
+    .adventure-nav__list {
+        flex-direction: column;
+    }
+    .adventure-nav__list-inner {
+        padding: 10px 0;
+    }
+    .adventure-main__info-place {
+        width: 303px;
+    }
+}
+
+@media (max-width: 830px) {
+    .adventure-main__wrapp-col {
+        width: 50%;
+    }
+    .adventure-footer-img {
+        display: none;
+    }
+    .adventure-footer__wrapp,
+    .adventure-footer__wrapper {
+        justify-content: center;
+        border: none;
+    }
+
+    .adventure-footer__wrapp-content {
+        padding-bottom: 0;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .adventure-footer__wrapper-text {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .adventure-footer {
+        .adventure-container {
+            border: 3px solid #f8c400;
+
+            border-radius: 15px;
+            padding: 20px 0;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .adventure-main {
+        margin-bottom: 10px;
+    }
+    .adventure-main__wrapp-col {
+        width: 55%;
+    }
+    .adventure-main__wrapp-link-2::before {
+        content: "";
+    }
+
+    .adventure-info__wrapp {
+        flex-direction: column;
+    }
+    .adventure-info__inner,
+    .adventure-order__inner,
+    .adventure-info__news-fix {
+        width: 100%;
+    }
+    .adventure-info__inner:nth-last-child(1) {
+        width: 100%;
+    }
+    .adventure-info-news__inner {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 630px) {
+    .adventure-main__wrapp-col {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .adventure-main__wrapp-col-2 {
+        margin-top: 40px;
+    }
+    .adventure-main__wrapp {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .adventure-main__info-place {
+        width: 100%;
+        position: absolute;
+        top: 0;
+    }
+    .adventure-main {
+        position: relative;
+    }
+}
+
+@media (max-width: 580px) {
+    .adventure-main__info-place {
+        width: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .adventure-avto-title {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .adventure-main__wrapp-col-2 {
+        margin-top: 70px;
+    }
+}

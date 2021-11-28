@@ -4,6 +4,7 @@ $('.adventure-menu__burger').click(function () {
     $('.adventure-menu__burger').toggleClass('adventure-burger__active'),
         $('.adventure-nav').toggleClass('adventure-nav__active'),
         $('body').toggleClass('adventure-look');
+    $('.adventure-nav').toggleClass('adventure-nav-active');
 });
 
 $('.adventure-news__box-foto').magnificPopup({
