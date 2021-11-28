@@ -1,0 +1,24 @@
+.adventure-order__inner {
+    width: 60%;
+    .adventure-info__inner {
+        width: 100%;
+    }
+}
+
+.adventure-order__list {
+    padding-left: 15px;
+
+    counter-reset: myCounter;
+    list-style: none;
+}
+
+.adventure-order__list-inner {
+    color: #333027;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    &::before {
+        content: counter(myCounter) ") ";
+        counter-increment: myCounter;
+    }
+}
